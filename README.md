@@ -1,85 +1,87 @@
-# Cybersecurity Fundamentals & Ethical Hacking Basics
+# Networking & Reconnaissance
 
-## Introduction
-Cybersecurity is the practice of protecting computers, networks, systems, and data from cyber attacks. It helps keep information safe from unauthorized access, theft, and damage.
+## Project Description
+This project introduces the fundamentals of computer networking and reconnaissance in cybersecurity. It focuses on understanding networking concepts such as IP addresses, DNS, ports, and protocols while demonstrating how publicly available information about a domain or system can be gathered using ethical reconnaissance techniques.
 
-Ethical hacking is the process of testing computer systems for security vulnerabilities with the owner's permission. Ethical hackers help organizations improve their security.
+## Objectives
+- Learn basic networking concepts.
+- Understand IP addresses, DNS, and network protocols.
+- Perform basic reconnaissance on a target domain.
+- Identify publicly available information using legal tools.
+- Understand the importance of information gathering in ethical hacking.
 
----
+## Networking Fundamentals
 
-## What is an Ethical Hacker?
+### IP Address
+An IP (Internet Protocol) address is a unique identifier assigned to every device connected to a network. It enables communication between devices over the internet.
 
-An ethical hacker is a cybersecurity professional who legally tests systems to identify security weaknesses before attackers can exploit them.
+### DNS (Domain Name System)
+DNS translates human-readable domain names (such as `example.com`) into IP addresses that computers use to locate websites.
 
-### Goal
-- Protect systems
-- Find vulnerabilities
-- Improve security
+### Ports
+Ports are communication endpoints used by applications and network services.
 
----
+**Common Ports**
+- Port 80 – HTTP
+- Port 443 – HTTPS
+- Port 22 – SSH
+- Port 21 – FTP
+- Port 53 – DNS
 
-## Types of Hackers
-
-### White Hat Hacker
-- Works with permission.
-- Helps improve security.
-
-### Black Hat Hacker
-- Hacks systems illegally.
-- Steals or damages data.
-
-### Grey Hat Hacker
-- Finds vulnerabilities without permission.
-- Usually does not have malicious intentions.
-
----
-
-## CIA Triad
-
-### 1. Confidentiality
-Ensures that only authorized users can access sensitive information.
-
-### 2. Integrity
-Ensures that data remains accurate and is not modified without authorization.
-
-### 3. Availability
-Ensures that systems and data are accessible whenever needed.
-
----
-
-## Common Cyber Threats
-
-### Malware
-Malicious software designed to damage or gain unauthorized access to systems.
+### Network Protocols
+Protocols define the rules for communication between devices.
 
 Examples:
-- Virus
-- Worm
-- Trojan
-- Spyware
+- HTTP
+- HTTPS
+- TCP
+- UDP
+- DNS
+- ICMP
 
-### Phishing
-Fraudulent emails or websites used to steal passwords and personal information.
+## Reconnaissance
 
-### Ransomware
-Malware that locks files or systems and demands payment to restore access.
+Reconnaissance is the first phase of ethical hacking. It involves collecting publicly available information about a target before performing security assessments.
 
----
+### Types of Reconnaissance
+- Passive Reconnaissance – Gathering information without directly interacting with the target.
+- Active Reconnaissance – Collecting information by interacting with the target using authorized tools.
 
-## Ethical Hacking Process
+## Common Reconnaissance Tools
+- WHOIS
+- nslookup
+- dig
+- ping
+- traceroute
+- Nmap
 
-1. Reconnaissance
-2. Scanning
-3. Gaining Access
-4. Maintaining Access
-5. Analysis and Reporting
+## Example Information Collected
+- Domain Name
+- Registrar
+- Creation Date
+- IP Address (IPv4 & IPv6)
+- DNS Records
+- Open Ports
+- Technologies Used
+- Web Server Information
 
----
+## Technologies Used
+- Networking Tools
+- Command Line Interface (CLI)
+- WHOIS
+- nslookup
+- Nmap (for authorized scanning)
+
+## Learning Outcomes
+- Understand networking basics.
+- Learn how DNS and IP addressing work.
+- Identify commonly used network ports and protocols.
+- Perform ethical reconnaissance using public information.
+- Gain awareness of cybersecurity information-gathering techniques.
 
 ## Conclusion
+Networking knowledge is essential for cybersecurity professionals. Reconnaissance is the first step in ethical hacking, allowing security analysts to gather valuable public information before conducting authorized security assessments. This project provides a beginner-friendly introduction to networking concepts and ethical reconnaissance practices.
 
-Cybersecurity is essential in today's digital world. Ethical hackers help organizations identify vulnerabilities before cybercriminals can exploit them. Understanding the CIA Triad, hacker types, and common cyber threats is the foundation of cybersecurity.
 
-## Author
-Name: Mani Bharathi
-Course: B.Tech CSBS
+## License
+This project is created for educational and internship purposes only.
